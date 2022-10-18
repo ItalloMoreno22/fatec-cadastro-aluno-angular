@@ -1,4 +1,4 @@
-export interface students{
+export interface student{
     name: string;
     age: number
     id: number;

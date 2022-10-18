@@ -1,6 +1,6 @@
-import { students } from "./students";
+import { student } from "./students";
 
-export const STUDENTS: students[] = [
+export const STUDENTS: student[] = [
 {name: 'Antonio Tadeu', age: 20, id: 1, course: 'ADS' },
 {name: 'Maria Arruda', age: 25, id: 2, course: 'GTI' },
 {name: 'Marcelo Mendes', age: 27, id: 3, course: 'MEC' },
