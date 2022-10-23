@@ -13,7 +13,7 @@
             <td>{{alu.age}}</td>
             <td>{{alu.course}}</td>
             <td>
-                <button type="button" (click)="onSelect(alu)">Editar</button>
+                <button type="button" (click)="onSelect(alu)">Editar Aluno</button>
             </td>
         </tr>
 
@@ -27,8 +27,18 @@
      
     
     <div>
-    <label for="student-name"> student Name: </label>
-    <input id = "student-name" [(ngModel)]="selectedstudent.name" placeholder="name">
+    <label for="name"> New Name: </label>
+    <input id = "name" [(ngModel)]="selectedstudent.name" placeholder="name">
+    
+    <label for="id"> New id: </label>
+    <input id = "id" [(ngModel)]="selectedstudent.id" placeholder="id">
+    
+    <label for="age"> New Age: </label>
+    <input id = "age" [(ngModel)]="selectedstudent.age" placeholder="age">
+
+    <label for="course"> New Course: </label>
+    <input id = "course" [(ngModel)]="selectedstudent.course" placeholder="course">
+    
     </div>
     
 </div>
