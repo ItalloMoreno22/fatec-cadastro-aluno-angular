@@ -1,11 +1,30 @@
-.for{
+.model{
     display: flex;
-    background-color: red;
+   background-color: #189bdc;
+    justify-content: space-between;
+    
 }
 
+.label{
+   justify-content: space-between;
+    color: #011640;
+  
+}
 
 .table{
     display: flex;
     justify-content: center;
-    background-color: lightblue;
+    width: 100%;
+    color: #011640;
+    
+    
+}
+
+.table2{
+    background-color: white;
+    border: 6px solid #204C73;
+    border-collapse: collapse; /* CSS2 */
+    background: #FFFFF0;
+    
+    width: 50%;
 }

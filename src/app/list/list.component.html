@@ -1,5 +1,5 @@
-<div class="table">
-<table border="2" > 
+<div class="table" >
+<table class="table2" border="10" > 
     <tr>
         <td>name</td>
         <td>Age</td>
@@ -7,8 +7,8 @@
         <td>course</td>
         
     </tr>
-    <tr class="for" *ngFor="let alu of alunos">
-            <td class="for">{{alu.name}}</td>
+    <tr  *ngFor="let alu of alunos">
+            <td>{{alu.name}}</td>
             <td>{{alu.id}}</td>
             <td>{{alu.age}}</td>
             <td>{{alu.course}}</td>
@@ -19,19 +19,19 @@
 
 </table>
 
-<div class="for" *ngIf="selectedstudent">
+<div  *ngIf="selectedstudent">
     <h1>Name: {{selectedstudent.name | uppercase}}</h1>
     <h3>id: {{selectedstudent.id}}</h3>
     <h3>age: {{selectedstudent.age}}</h3>
     <h3>course: {{selectedstudent.course}}</h3>
      
     
-    <div>
-    <label for="name"> New Name: </label>
-    <input id = "name" [(ngModel)]="selectedstudent.name" placeholder="name">
+    <div class="model">
+    <label class="label" for="name"> New Name: </label>
+    <input class="label" id = "name" [(ngModel)]="selectedstudent.name" placeholder="name">
     
-    <label for="id"> New id: </label>
-    <input id = "id" [(ngModel)]="selectedstudent.id" placeholder="id">
+    <label class="label" for="id"> New id: </label>
+    <input class="label" id = "id" [(ngModel)]="selectedstudent.id" placeholder="id">
     
     <label for="age"> New Age: </label>
     <input id = "age" [(ngModel)]="selectedstudent.age" placeholder="age">
