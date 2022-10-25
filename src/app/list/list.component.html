@@ -1,5 +1,5 @@
-
-<table border="1"> 
+<div class="table">
+<table border="2" > 
     <tr>
         <td>name</td>
         <td>Age</td>
@@ -7,8 +7,8 @@
         <td>course</td>
         
     </tr>
-    <tr *ngFor="let alu of alunos">
-            <td>{{alu.name}}</td>
+    <tr class="for" *ngFor="let alu of alunos">
+            <td class="for">{{alu.name}}</td>
             <td>{{alu.id}}</td>
             <td>{{alu.age}}</td>
             <td>{{alu.course}}</td>
@@ -19,7 +19,7 @@
 
 </table>
 
-<div *ngIf="selectedstudent">
+<div class="for" *ngIf="selectedstudent">
     <h1>Name: {{selectedstudent.name | uppercase}}</h1>
     <h3>id: {{selectedstudent.id}}</h3>
     <h3>age: {{selectedstudent.age}}</h3>
@@ -43,5 +43,4 @@
     
 </div>
 
-
-
+</div>

@@ -1,0 +1,11 @@
+.for{
+    display: flex;
+    background-color: red;
+}
+
+
+.table{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
